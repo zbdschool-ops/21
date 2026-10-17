@@ -288,7 +288,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="toast-container" id="toastContainer"></div>
 <header class="header">
 <div class="header-content">
-<h1 id="headerTitle">️ § 21. Соціально небезпечні захворювання</h1>
+<h1 id="headerTitle">⚠️ § 21. Соціально небезпечні захворювання</h1>
 <div class="header-buttons">
 <button class="btn btn-secondary" onclick="goToMainPage()">← До змісту</button>
 <button class="btn btn-secondary" onclick="showProgressModal()">📊 Прогрес</button>
@@ -303,6 +303,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <!-- 🖼️ ІЛЮСТРАЦІЯ 1: замініть значення src на URL свого зображення -->
 <div class="img-wrapper">
 <img src="https://res.cloudinary.com/dmydvhkzr/image/upload/v1792246116/21-1_m2tmwo.png" alt="Соціально небезпечні захворювання" onerror="this.parentElement.classList.add('img-failed')">
+<div class="img-fallback">⚠️<div class="img-fallback-text">Зображення не завантажилось</div></div>
 </div>
 <p class="situation-caption">Небезпечною є хвороба, а не людина, яка хворіє.</p>
 </div>
@@ -313,7 +314,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 <div class="info-blocks">
-<div class="card" style="margin:0"><h3> У цьому параграфі ти:</h3>
+<div class="card" style="margin:0"><h3>📚 У цьому параграфі ти:</h3>
 <ul class="feature-list">
 <li data-icon="💡">з'ясуєш, чому окремі захворювання загрожують не лише людині, а й суспільству;</li>
 <li data-icon="🫁">пригадаєш шляхи передавання, профілактику та лікування туберкульозу;</li>
@@ -321,18 +322,13 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <li data-icon="🧠">проаналізуєш соціальні наслідки залежностей;</li>
 <li data-icon="🛡️">навчишся розпізнавати стереотипи, стигматизацію й дискримінацію.</li>
 </ul></div>
-<div class="card" style="margin:0"><h3>🎮 Інтерактивні формати</h3>
+<div class="card" style="margin:0"><h3>📋 Що ти робитимеш?</h3>
 <ul class="feature-list">
-<li data-icon="🎯">Стартове завдання</li>
-<li data-icon="🔗">Зіставлення ознак</li>
-<li data-icon="">Аналіз ситуацій з підручника</li>
-<li data-icon="🎯">Міф / Правда</li>
-<li data-icon="✅">Множинний вибір</li>
-<li data-icon="🔀">Сортування симптомів</li>
-<li data-icon="️">Заповнення пропусків</li>
-<li data-icon="✅❌">Так / Ні</li>
-<li data-icon="🎚️">Слайдер ризику</li>
-<li data-icon="🖼️">Інфографіка з кліком</li>
+    <li data-icon="✅">Аналізуватимеш ситуації з підручника (алергія, алкоголь, ВІЛ, Сергій)</li>
+    <li data-icon="🔗">Розриватимеш ланки ланцюга інфекції (туберкульоз, ВІЛ, гепатити)</li>
+    <li data-icon="🔀">Зіставлятимеш симптоми туберкульозу та застуди</li>
+    <li data-icon="🛡️">Розпізнаватимеш стереотипи, стигму та дискримінацію</li>
+    <li data-icon="⭐">Оціниш свої вміння</li>
 </ul></div>
 </div>
 <div class="tip-card">💡 <strong>Пам'ятай:</strong> Небезпечною є хвороба, а не людина, яка хворіє. Повага, достовірна інформація та вчасне звернення до лікаря — запорука здоров'я кожного.</div>
@@ -348,6 +344,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <!-- 🖼️ ІЛЮСТРАЦІЯ 2: замініть значення src на URL свого зображення -->
 <div class="img-wrapper">
 <img src="https://res.cloudinary.com/dmydvhkzr/image/upload/v1792246126/21-2_mnfyxg.png" alt="Працівники підприємства" class="situation-img" onerror="this.parentElement.classList.add('img-failed')">
+<div class="img-fallback">🏭<div class="img-fallback-text">Зображення не завантажилось</div></div>
 </div>
 </div>
 <div class="feedback feedback-info mb-24">
@@ -357,7 +354,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="option" data-correct="false" onclick="sel(this,'s1t1')" tabindex="0" role="button">
 <div class="option-radio"></div>
 <div class="option-text">
-<div class="option-label"> Це проблема лише самих працівників через їхню необережність, а уповільнення виробництва пов'язане з економічною кризою, а не з хворобою.</div>
+<div class="option-label">❌ Це проблема лише самих працівників через їхню необережність, а уповільнення виробництва пов'язане з економічною кризою, а не з хворобою.</div>
 </div>
 </div>
 <div class="option" data-correct="true" onclick="sel(this,'s1t1')" tabindex="0" role="button">
@@ -382,7 +379,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </section>
 </main>
 <main class="container hidden" id="step2Page">
-<div class="step-header"><div class="step-header-top"><h2 class="step-title"> Крок 2. Ознаки соціально небезпечних хвороб</h2><span class="step-badge">3 завдання</span></div></div>
+<div class="step-header"><div class="step-header-top"><h2 class="step-title">📋 Крок 2. Ознаки соціально небезпечних хвороб</h2><span class="step-badge">3 завдання</span></div></div>
 <section class="card" id="s2Theory">
 <h2>📖 Теоретичний блок</h2>
 <div class="theory-compact" style="background:linear-gradient(135deg,#fee2e2,#fecaca);border-color:#ef4444">
@@ -390,12 +387,12 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <p><strong>Соціально небезпечні захворювання</strong> — це хвороби, які несуть серйозну загрозу здоров'ю окремої людини та суспільству в цілому. Їх виникнення та поширення безпосередньо залежить від соціально-економічних умов життя населення.</p>
 <p><strong>Приклади:</strong> туберкульоз, ВІЛ-інфекція, вірусні гепатити B і C, залежності (алкогольна, наркотична, тютюнова).</p>
 </div>
-<h3 style="margin:24px 0 16px;color:var(--primary)">🔍 Ознаки соціально небезпечних хвороб (с. 42 підручника)</h3>
+<h3 style="margin:24px 0 16px;color:var(--primary)">🔍 Ознаки соціально небезпечних хвороб</h3>
 <div class="theory-grid">
 <div class="theory-block block-red"><h4>📈 Масовість та високі темпи поширення</h4><p>Хвороба набуває характеру епідемії, пандемії. Значна частина людей може бути носіями, але не знати про це.</p></div>
-<div class="theory-block block-orange"><h4> Тягар для суспільної економіки</h4><p>Призводить до втрати працездатності, інвалідності. Потребує значного бюджетного фінансування.</p></div>
+<div class="theory-block block-orange"><h4>💰 Тягар для суспільної економіки</h4><p>Призводить до втрати працездатності, інвалідності. Потребує значного бюджетного фінансування.</p></div>
 <div class="theory-block block-purple"><h4>👥 Ураження працездатного населення</h4><p>Найчастіше уражає дітей і людей працездатного віку.</p></div>
-<div class="theory-block block-pink"><h4> Обмеження життєдіяльності, ізоляція</h4><p>Хвора людина може втратити можливість навчатися, працювати через дискримінацію.</p></div>
+<div class="theory-block block-pink"><h4>🚧 Обмеження життєдіяльності, ізоляція</h4><p>Хвора людина може втратити можливість навчатися, працювати через дискримінацію.</p></div>
 <div class="theory-block block-blue"><h4>🏚️ Соціально-економічні чинники</h4><p>Спалахи пов'язані з бідністю, стресом, безробіттям, війною, низьким рівнем санітарної культури.</p></div>
 </div>
 <div class="key-point">💡 <strong>Важливо!</strong> Соціально небезпечне захворювання може мати одну або кілька ознак — не всі обов'язково стосуються кожної хвороби.</div>
@@ -459,7 +456,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </section>
 <section class="card hidden" id="s2t2">
-<h2> Завдання 2. Аналіз ситуацій</h2>
+<h2>📊 Завдання 2. Аналіз ситуацій</h2>
 <div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Прочитай кожну ситуацію з підручника та визнач, чи є захворювання соціально небезпечним.</div>
 <div class="myth-row">
 <div style="display:flex;align-items:start;gap:12px;margin-bottom:12px"><span style="font-size:32px">🌸</span><div><strong>Ситуація 1. Сезонна алергія</strong><p style="font-size:13px;color:var(--text-muted);margin-top:4px">Навесні в частини мешканців міста виникають нежить, сльозотеча та свербіж очей через пилок рослин. Більшість людей продовжує працювати, використовуючи призначені лікарем препарати. Після завершення періоду цвітіння симптоми зникають.</p></div></div>
@@ -472,7 +469,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="myth-row">
 <div style="display:flex;align-items:start;gap:12px;margin-bottom:12px"><span style="font-size:32px">🍺</span><div><strong>Ситуація 2. Залежність від алкоголю</strong><p style="font-size:13px;color:var(--text-muted);margin-top:4px">Після закриття великого підприємства багато жителів містечка втратили роботу. Частина з них почала зловживати алкоголем. Через погіршення здоров'я їм стало складніше знайти нову роботу. Вони потребують тривалого лікування та соціальної підтримки.</p></div></div>
 <div class="task-options" id="s2t2q2">
-<div class="option" data-correct="true" onclick="selAcc(this,'s2t2q2','q2')" tabindex="0"><div class="option-radio"></div><div class="option-text"><div class="option-label">️ Так: потребує тривалого лікування, соціальної підтримки, пов'язана з безробіттям</div></div></div>
+<div class="option" data-correct="true" onclick="selAcc(this,'s2t2q2','q2')" tabindex="0"><div class="option-radio"></div><div class="option-text"><div class="option-label">⚠️ Так: потребує тривалого лікування, соціальної підтримки, пов'язана з безробіттям</div></div></div>
 <div class="option" data-correct="false" onclick="selAcc(this,'s2t2q2','q2')" tabindex="0"><div class="option-radio"></div><div class="option-text"><div class="option-label">🌿 Ні, це лише особиста проблема</div></div></div>
 </div>
 <div id="s2t2q2f" class="feedback" style="display:none;margin-top:12px"></div>
@@ -489,7 +486,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="navigation"><button class="btn btn-secondary" onclick="showS2('s2t1')">← Назад</button><button class="btn btn-primary" onclick="chkAccordion('s2t2',3,'step2_task2')">✓ Завершити</button><button class="btn btn-success" onclick="showS2('s2t3')">Далі →</button></div>
 </section>
 <section class="card hidden" id="s2t3">
-<h2> Завдання 3. Міф чи правда?</h2>
+<h2>🎯 Завдання 3. Міф чи правда?</h2>
 <div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Прочитай твердження та обери — це МІФ (хибне уявлення) чи ПРАВДА.</div>
 <div class="myth-row">
 <div class="myth-statement">💭 «Соціально небезпечні захворювання стосуються лише дорослих і не загрожують підліткам»</div>
@@ -529,9 +526,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 <h3 style="margin:24px 0 16px;color:var(--primary)">💨 Як передається</h3>
 <div class="impact-block">
-<div class="impact-row"><div class="impact-icon">💨</div><div class="impact-content"><h4>ПЕРЕВАЖНО ПОВІТРЯНИМ ШЛЯХОМ</h4><p>Від людини з активною легеневою формою — під час кашлю, розмови або чхання.</p></div>
+<div class="impact-row"><div class="impact-icon">💨</div><div class="impact-content"><h4>ПЕРЕВАЖНО ПОВІТРЯНИМ ШЛЯХОМ</h4><p>Від людини з активною легеневою формою — під час кашлю, розмови або чхання.</p></div></div>
 </div>
-<h3 style="margin:24px 0 16px;color:var(--primary)"> Симптоми легеневого туберкульозу</h3>
+<h3 style="margin:24px 0 16px;color:var(--primary)">🩺 Симптоми легеневого туберкульозу</h3>
 <div class="theory-grid">
 <div class="theory-block block-red"><h4>😷 Кашель понад 2 тижні</h4><p>Може бути з кров'ю у мокротинні або без кашлю (за ускладнених форм).</p></div>
 <div class="theory-block block-orange"><h4>🌡️ Підвищена температура</h4><p>Незначне підвищення або лихоманка понад тиждень.</p></div>
@@ -549,7 +546,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <h3 style="margin:24px 0 16px;color:var(--primary)">🛡️ Профілактика та діагностика</h3>
 <div class="theory-grid">
 <div class="theory-block block-green"><h4>💉 Щеплення БЦЖ</h4><p>Захищає від тяжких форм туберкульозу у дітей.</p></div>
-<div class="theory-block block-blue"><h4> Провітрювання</h4><p>Регулярне провітрювання приміщень зменшує ризик.</p></div>
+<div class="theory-block block-blue"><h4>🪟 Провітрювання</h4><p>Регулярне провітрювання приміщень зменшує ризик.</p></div>
 <div class="theory-block block-purple"><h4>🔍 Обстеження контактних осіб</h4><p>Перевірка тих, хто контактував із хворим.</p></div>
 <div class="theory-block block-orange"><h4>🩺 Флюорографія та аналіз мокротиння</h4><p>Щорічний огляд для раннього виявлення.</p></div>
 </div>
@@ -571,13 +568,13 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="option" data-correct="true" onclick="tog(this)" tabindex="0">
 <div class="option-checkbox"></div>
 <div class="option-text">
-<div class="option-label"> Незбалансоване харчування (брак вітамінів, білків, жирів)</div>
+<div class="option-label">🍎 Незбалансоване харчування (брак вітамінів, білків, жирів)</div>
 </div>
 </div>
 <div class="option" data-correct="true" onclick="tog(this)" tabindex="0">
 <div class="option-checkbox"></div>
 <div class="option-text">
-<div class="option-label"> Шкідливі звички та залежності (куріння, алкоголь)</div>
+<div class="option-label">🚬 Шкідливі звички та залежності (куріння, алкоголь)</div>
 </div>
 </div>
 <div class="option" data-correct="true" onclick="tog(this)" tabindex="0">
@@ -606,7 +603,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 <div class="key-point" style="margin-top:16px">
-💡 <strong></strong> Соціальні чинники поширення туберкульозу — це незадовільні житлові умови, незбалансоване харчування, шкідливі звички та низький рівень санітарної культури.
+💡 <strong>Соціальні чинники поширення туберкульозу — це незадовільні житлові умови, незбалансоване харчування, шкідливі звички та низький рівень санітарної культури.
 </div>
 <div id="s3t1f" class="feedback" style="display:none"></div>
 <div class="navigation">
@@ -625,22 +622,22 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="sorting-zone-items" id="sortTb"></div>
 </div>
 <div class="sorting-zone" data-zone="cold" onclick="placeSort(this,'s3t2')">
-<div class="sorting-zone-header zone-cold"> Симптоми застуди</div>
+<div class="sorting-zone-header zone-cold">🤧 Симптоми застуди</div>
 <div class="sorting-zone-items" id="sortCold"></div>
 </div>
 </div>
 <div style="margin-top:16px;background:#fff;border:2px solid var(--border);border-radius:12px;padding:14px">
 <h4 style="color:var(--primary);font-size:14px;margin-bottom:10px">📋 Симптоми (перетягни або натисни)</h4>
 <div class="three-zone-items" id="sortBank3"></div>
-<button class="dnd-reset-btn" onclick="resetSort('s3t2')"> Перемішати</button>
+<button class="dnd-reset-btn" onclick="resetSort('s3t2')">🔄 Перемішати</button>
 </div>
 </div>
 <div id="s3t2f" class="feedback" style="display:none"></div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS3('s3t1')">← Назад</button><button class="btn btn-primary" onclick="chkSort('s3t2',{s1:'tb',s2:'cold',s3:'tb',s4:'tb',s5:'cold',s6:'tb',s7:'tb',s8:'cold'},'step3_task2')">✓ Перевірити</button><button class="btn btn-success" onclick="showS3('s3t3')">Далі →</button></div>
 </section>
 <section class="card hidden" id="s3t3">
-<h2>️ Завдання 3. Заповни пропуски в тексті</h2>
-<div class="feedback feedback-warning mb-24"><strong> Інструкція:</strong> Натисни на пропущене слово → потім на потрібне слово зі «Слова-підказки».</div>
+<h2>✍️ Завдання 3. Заповни пропуски в тексті</h2>
+<div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Натисни на пропущене слово → потім на потрібне слово зі «Слова-підказки».</div>
 <div class="fill-blanks-container">
 <div class="fill-blanks-text" id="fillText3">
 Туберкульоз передається переважно <span class="fill-blank" data-correct="повітряним" onclick="fillSel(this)">___?</span> шляхом від людини з активною формою хвороби. Основний симптом — кашель, що триває більш ніж <span class="fill-blank" data-correct="2 тижні" onclick="fillSel(this)">___?</span>. Для профілактики дітей застосовують щеплення <span class="fill-blank" data-correct="БЦЖ" onclick="fillSel(this)">___?</span>. Туберкульоз — <span class="fill-blank" data-correct="виліковне" onclick="fillSel(this)">___?</span> захворювання за умови раннього виявлення. В Україні послуги надаються <span class="fill-blank" data-correct="безкоштовно" onclick="fillSel(this)">___?</span>.
@@ -671,11 +668,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 <h3 style="margin:24px 0 16px;color:var(--primary)">💉 Як передається ВІЛ</h3>
 <div class="impact-block">
-<div class="impact-row"><div class="impact-icon">💞</div><div class="impact-content"><h4>ЧЕРЕЗ НЕЗАХИЩЕНІ СТАТЕВІ КОНТАКТИ</h4><p>Найпоширеніший шлях передавання.</p></div>
-</div>
-<div class="impact-row"><div class="impact-icon">🩸</div><div class="impact-content"><h4>ЧЕРЕЗ КРОВ</h4><p>Спільні шприци, нестерильні інструменти, контакт із кров'ю.</p></div>
-</div>
-<div class="impact-row"><div class="impact-icon"></div><div class="impact-content"><h4>ВІД МАТЕРІ ДО ДИТИНИ</h4><p>Під час вагітності, пологів або грудного вигодовування.</p></div>
+<div class="impact-row"><div class="impact-icon">💞</div><div class="impact-content"><h4>ЧЕРЕЗ НЕЗАХИЩЕНІ СТАТЕВІ КОНТАКТИ</h4><p>Найпоширеніший шлях передавання.</p></div></div>
+<div class="impact-row"><div class="impact-icon">🩸</div><div class="impact-content"><h4>ЧЕРЕЗ КРОВ</h4><p>Спільні шприци, нестерильні інструменти, контакт із кров'ю.</p></div></div>
+<div class="impact-row"><div class="impact-icon">🤰</div><div class="impact-content"><h4>ВІД МАТЕРІ ДО ДИТИНИ</h4><p>Під час вагітності, пологів або грудного вигодовування.</p></div></div>
 </div>
 <div class="key-point" style="background:linear-gradient(135deg,#dcfce7,#bbf7d0);border-color:#86efac;color:#166534">✅ <strong>ВІЛ НЕ передається</strong> через обійми, рукостискання, спільний посуд, їжу або звичайне спілкування.</div>
 <h3 style="margin:24px 0 16px;color:var(--primary)">🧪 Тестування і діагностика</h3>
@@ -684,7 +679,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="theory-block block-green"><h4>🩸 Аналіз на антигени/антитіла</h4><p>Венозна кров — на 18–45 день.</p></div>
 <div class="theory-block block-purple"><h4>⚡ Експрес-тест</h4><p>На антитіла — на 23–90 день.</p></div>
 </div>
-<h3 style="margin:24px 0 16px;color:var(--primary)">️ Профілактика</h3>
+<h3 style="margin:24px 0 16px;color:var(--primary)">🛡️ Профілактика</h3>
 <div class="theory-grid">
 <div class="theory-block block-green"><h4>💞 Безпечна сексуальна поведінка</h4><p>Використання презервативів.</p></div>
 <div class="theory-block block-blue"><h4>🧼 Стерильні інструменти</h4><p>Для тату, пірсингу, медичних процедур.</p></div>
@@ -699,7 +694,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="yn-grid" id="ynGrid4">
 <div class="yn-row"><div class="yn-label">💞 Незахищений статевий контакт</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
 <div class="yn-row"><div class="yn-label">🤝 Обійми та рукостискання</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
-<div class="yn-row"><div class="yn-label"> Спільні шприци</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
+<div class="yn-row"><div class="yn-label">💉 Спільні шприци</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
 <div class="yn-row"><div class="yn-label">🍽️ Спільний посуд</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
 <div class="yn-row"><div class="yn-label">👶 Від матері до дитини</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
 <div class="yn-row"><div class="yn-label">💬 Звичайне спілкування</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
@@ -709,7 +704,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </section>
 <section class="card hidden" id="s4t2">
 <h2>🧪 Завдання 2. Тестування на ВІЛ: перевір свої знання</h2>
-<div class="feedback feedback-warning mb-24"><strong> Інструкція:</strong> Обери правильну відповідь для кожного запитання.</div>
+<div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Обери правильну відповідь для кожного запитання.</div>
 <div class="myth-row">
 <div style="font-weight:600;margin-bottom:10px;color:var(--primary)">📋 Питання 1. Через скільки днів після інфікування ПЛР/NAT-тест може виявити ВІЛ?</div>
 <div class="task-options" id="s4t2q1">
@@ -742,7 +737,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </section>
 <section class="card hidden" id="s4t3">
 <h2>✍️ Завдання 3. Заповни пропуски: PrEP/PEP</h2>
-<div class="feedback feedback-warning mb-24"><strong> Ситуація з підручника:</strong> Під час статевого контакту пошкодився презерватив. ВІЛ-статус партнера невідомий, від ситуації минуло 12 годин.</div>
+<div class="feedback feedback-warning mb-24"><strong>📌 Ситуація з підручника:</strong> Під час статевого контакту пошкодився презерватив. ВІЛ-статус партнера невідомий, від ситуації минуло 12 годин.</div>
 <div class="fill-blanks-container">
 <div class="fill-blanks-text" id="fillText4">
 У такій ситуації можна застосувати <span class="fill-blank" data-correct="PEP" onclick="fillSel(this)">___?</span> — постконтактну профілактику. Чим швидше звернутися до лікаря, тим <span class="fill-blank" data-correct="ефективніше" onclick="fillSel(this)">___?</span> дія препаратів. Потрібно звернутися до <span class="fill-blank" data-correct="центру СНІДу" onclick="fillSel(this)">___?</span> або до сімейного лікаря. Пройти тестування рекомендується через <span class="fill-blank" data-correct="6 тижнів" onclick="fillSel(this)">___?</span> та повторно через 3 місяці.
@@ -800,16 +795,14 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <section class="card" id="s5Theory">
 <h2>📖 Теоретичний блок</h2>
 <div class="theory-compact" style="background:linear-gradient(135deg,#f3e8ff,#e9d5ff);border-color:#a855f7">
-<h4 style="color:#6d28d9"> Що таке вірусні гепатити B і C?</h4>
+<h4 style="color:#6d28d9">🫀 Що таке вірусні гепатити B і C?</h4>
 <p><strong>Гепатити B і C</strong> — це поширені вірусні інфекції, які уражають печінку. Вони можуть тривалий час перебігати без помітних симптомів, а без вчасного виявлення й лікування інколи призводять до цирозу або раку печінки.</p>
 </div>
 <h3 style="margin:24px 0 16px;color:var(--primary)">💉 Як передаються</h3>
 <div class="impact-block">
-<div class="impact-row"><div class="impact-icon">🩸</div><div class="impact-content"><h4>ЧЕРЕЗ КРОВ</h4><p>Спільні шприци, нестерильні інструменти.</p></div>
-</div>
-<div class="impact-row"><div class="impact-icon">💞</div><div class="impact-content"><h4>СТАТЕВИМ ШЛЯХОМ</h4><p>Переважно гепатит В.</p></div>
-</div>
-<div class="impact-row"><div class="impact-icon">👶</div><div class="impact-content"><h4>ВІД МАТЕРІ ДО ДИТИНИ</h4><p>Під час вагітності та пологів.</p></div>
+<div class="impact-row"><div class="impact-icon">🩸</div><div class="impact-content"><h4>ЧЕРЕЗ КРОВ</h4><p>Спільні шприци, нестерильні інструменти.</p></div></div>
+<div class="impact-row"><div class="impact-icon">💞</div><div class="impact-content"><h4>СТАТЕВИМ ШЛЯХОМ</h4><p>Переважно гепатит В.</p></div></div>
+<div class="impact-row"><div class="impact-icon">🤰</div><div class="impact-content"><h4>ВІД МАТЕРІ ДО ДИТИНИ</h4><p>Під час вагітності та пологів.</p></div></div>
 </div>
 <h3 style="margin:24px 0 16px;color:var(--primary)">🛡️ Профілактика та лікування</h3>
 <div class="theory-grid">
@@ -821,8 +814,8 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="navigation"><button class="btn btn-secondary" onclick="goToMainPage()">← До змісту</button><button class="btn btn-primary" onclick="showS5('s5t1')">Далі: Завдання 1 →</button></div>
 </section>
 <section class="card hidden" id="s5t1">
-<h2> Завдання 1. Міф чи правда про гепатити?</h2>
-<div class="feedback feedback-warning mb-24"><strong> Інструкція:</strong> Прочитай твердження та обери — це МІФ чи ПРАВДА.</div>
+<h2>🎯 Завдання 1. Міф чи правда про гепатити?</h2>
+<div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Прочитай твердження та обери — це МІФ чи ПРАВДА.</div>
 <div class="myth-row">
 <div class="myth-statement">💭 «Гепатит C — це вирок, його неможливо вилікувати»</div>
 <div class="myth-buttons">
@@ -862,11 +855,11 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <h2>✅❌ Завдання 2. Ситуації ризику: Так чи Ні?</h2>
 <div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Для кожної ситуації визнач, чи є ризик інфікування гепатитами B і C.</div>
 <div class="yn-grid" id="ynGrid5">
-<div class="yn-row"><div class="yn-label"> Манікюр у неперевіреному салоні</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
+<div class="yn-row"><div class="yn-label">💅 Манікюр у неперевіреному салоні</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
 <div class="yn-row"><div class="yn-label">🤝 Рукостискання з колегою</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
-<div class="yn-row"><div class="yn-label"> Спільні шприци</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
-<div class="yn-row"><div class="yn-label">️ Спільний обід</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
-<div class="yn-row"><div class="yn-label"> Тату неперевіреними інструментами</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
+<div class="yn-row"><div class="yn-label">💉 Спільні шприци</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
+<div class="yn-row"><div class="yn-label">🍽️ Спільний обід</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
+<div class="yn-row"><div class="yn-label">🎨 Тату неперевіреними інструментами</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
 <div class="yn-row"><div class="yn-label">💬 Звичайне спілкування</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
 </div>
 <div id="s5t2f" class="feedback" style="display:none"></div>
@@ -874,7 +867,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </section>
 <section class="card hidden" id="s5t3">
 <h2>✍️ Завдання 3. Заповни пропуски</h2>
-<div class="feedback feedback-warning mb-24"><strong> Інструкція:</strong> Натисни на пропущене слово → потім на потрібне слово зі «Слова-підказки».</div>
+<div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Натисни на пропущене слово → потім на потрібне слово зі «Слова-підказки».</div>
 <div class="fill-blanks-container">
 <div class="fill-blanks-text" id="fillText5">
 Від гепатиту <span class="fill-blank" data-correct="B" onclick="fillSel(this)">___?</span> захищає вакцинація, а лікування допомагає контролювати хронічну інфекцію. Гепатит <span class="fill-blank" data-correct="C" onclick="fillSel(this)">___?</span> можна повністю вилікувати сучасними противірусними препаратами. В Україні можна <span class="fill-blank" data-correct="безоплатно" onclick="fillSel(this)">___?</span> пройти тестування на гепатити B і C та отримати препарати для їх лікування в межах <span class="fill-blank" data-correct="державних програм" onclick="fillSel(this)">___?</span>.
@@ -894,9 +887,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </section>
 </main>
 <main class="container hidden" id="step6Page">
-<div class="step-header"><div class="step-header-top"><h2 class="step-title"> Крок 6. Залежності як соціально небезпечні захворювання</h2><span class="step-badge">2 завдання</span></div></div>
+<div class="step-header"><div class="step-header-top"><h2 class="step-title">🧠 Крок 6. Залежності як соціально небезпечні захворювання</h2><span class="step-badge">2 завдання</span></div></div>
 <section class="card" id="s6Theory">
-<h2> Теоретичний блок</h2>
+<h2>📖 Теоретичний блок</h2>
 <div class="theory-compact" style="background:linear-gradient(135deg,#fce7f3,#fbcfe8);border-color:#f9a8d4">
 <h4 style="color:#be185d">🧠 Що таке залежність?</h4>
 <p><strong>Залежність</strong> — це хронічний розлад, за якого людина втрачає контроль над вживанням психоактивної речовини попри шкоду для себе та оточуючих.</p>
@@ -913,9 +906,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="navigation"><button class="btn btn-secondary" onclick="goToMainPage()">← До змісту</button><button class="btn btn-primary" onclick="showS6('s6t1')">Далі: Завдання 1 →</button></div>
 </section>
 <section class="card hidden" id="s6t1">
-<h2> Завдання 1. Аналіз ситуації</h2>
+<h2>📋 Завдання 1. Аналіз ситуації</h2>
 <div class="feedback feedback-warning mb-24">
-<strong> 📌Ситуація:</strong> Після втрати роботи Сергій почав регулярно вживати алкоголь і поступово втратив контроль над його вживанням. Він кілька разів керував автомобілем у стані сп'яніння, через що його позбавили права керування. Сергій позичав гроші й не повертав їх, тому друзі почали уникати спілкування з ним. Дружина самостійно забезпечує родину й почувається виснаженою. Донька не запрошує друзів додому, бо соромиться ситуації в родині.<br><br>
+<strong>📌 Ситуація:</strong> Після втрати роботи Сергій почав регулярно вживати алкоголь і поступово втратив контроль над його вживанням. Він кілька разів керував автомобілем у стані сп'яніння, через що його позбавили права керування. Сергій позичав гроші й не повертав їх, тому друзі почали уникати спілкування з ним. Дружина самостійно забезпечує родину й почувається виснаженою. Донька не запрошує друзів додому, бо соромиться ситуації в родині.<br><br>
 <strong>📌 Запитання:</strong> Які наслідки залежності проявилися в ситуації?</strong>.
 </div>
 <div class="situation-layout">
@@ -923,6 +916,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <!-- 🖼️ ІЛЮСТРАЦІЯ 3: замініть значення src на URL свого зображення -->
 <div class="img-wrapper">
 <img src="https://res.cloudinary.com/dmydvhkzr/image/upload/v1792246134/21-3_mw08cw.png" alt="Сергій — ситуація із залежністю" class="situation-img" onerror="this.parentElement.classList.add('img-failed')">
+<div class="img-fallback">🍺<div class="img-fallback-text">Зображення не завантажилось</div></div>
 </div>
 </div>
 <div class="situation-content-right">
@@ -999,10 +993,10 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <h4 style="color:#be185d">🛡️ Соціальні бар'єри навколо хвороб</h4>
 <p>Соціально небезпечні захворювання супроводжуються не лише медичними, а й серйозними соціальними бар'єрами.</p>
 </div>
-<h3 style="margin:24px 0 16px;color:var(--primary)"> Поняття</h3>
+<h3 style="margin:24px 0 16px;color:var(--primary)">📚 Поняття</h3>
 <div class="theory-grid">
 <div class="theory-block block-orange"><h4>💭 Соціальні стереотипи</h4><p>Спрощені або хибні уявлення про певні групи людей: «Люди з ВІЛ — аморальні», «Наркозалежні не змінюються».</p></div>
-<div class="theory-block block-red"><h4>️ Стигматизація</h4><p>Навішування негативних ярликів через стан здоров'я. Людину уникають, засуджують.</p></div>
+<div class="theory-block block-red"><h4>🏷️ Стигматизація</h4><p>Навішування негативних ярликів через стан здоров'я. Людину уникають, засуджують.</p></div>
 <div class="theory-block block-purple"><h4>⚖️ Дискримінація</h4><p>Несправедливе ставлення або обмеження прав через діагноз: відмова в роботі, навчанні, медичній допомозі.</p></div>
 </div>
 <h3 style="margin:24px 0 16px;color:var(--primary)">✅ Що допомагає долати</h3>
@@ -1142,9 +1136,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="modal-overlay" id="helpModal" role="dialog" aria-modal="true" aria-labelledby="hTitle">
 <div class="modal"><div class="modal-header"><h2 id="hTitle">❓ Як працювати</h2><button class="modal-close" onclick="closeModal('helpModal')">✕</button></div>
 <div class="feature-list">
-<div data-icon="" style="padding:10px 0 10px 32px;position:relative;border-bottom:1px solid var(--border)"><strong>Як почати?</strong><br>Натисни «Розпочати параграф».</div>
-<div data-icon="✅" style="padding:10px 0 10px 32px;position:relative;border-bottom:1px solid var(--border)"><strong>Форми завдань:</strong><br>🎯 Стартове завдання<br>🔗 Зіставлення ознак<br>📊 Аналіз ситуацій з підручника<br>🎯 Міф / Правда<br>✅ Множинний вибір<br>🔀 Сортування симптомів<br>✍️ Заповнення пропусків<br>✅❌ Так / Ні<br>🎚️ Слайдер ризику<br>🖼️ Інфографіка з кліком</div>
-<div data-icon="" style="padding:10px 0 10px 32px;position:relative"><strong>Прогрес:</strong><br>Натисни на віджет прогресу.</div>
+<div data-icon="🚀" style="padding:10px 0 10px 32px;position:relative;border-bottom:1px solid var(--border)"><strong>Як почати?</strong><br>Натисни «Розпочати параграф».</div>
+<div data-icon="✅" style="padding:10px 0 10px 32px;position:relative;border-bottom:1px solid var(--border)"><strong>Форми завдань:</strong><br>✅❌ Так / Ні<br>🎚️ Слайдер ризику<br>🖼️ Інфографіка з кліком</div>
+<div data-icon="📊" style="padding:10px 0 10px 32px;position:relative"><strong>Прогрес:</strong><br>Натисни на віджет прогресу.</div>
 </div>
 <button class="btn btn-primary mt-24" onclick="closeModal('helpModal')" style="width:100%">Зрозуміло!</button></div></div>
 <script>
@@ -1165,7 +1159,7 @@ function updLive(){try{var c=0;for(var i=1;i<=7;i++)c+=ST["step"+i].c;var p=Math
 function updateWidgetMiniMap(){var wb=document.getElementById("widgetMiniMap");if(!wb)return;wb.innerHTML="";for(var i=1;i<=7;i++){var d=document.createElement("div");d.className="mini-step";if(SC[i])d.classList.add("completed");else if(i===state.cs)d.classList.add("current");d.textContent=i;wb.appendChild(d)}}
 function saveP(){try{sessionStorage.setItem("s21v6",JSON.stringify({PT:PT,ST:ST,SC:SC,state:state}))}catch(e){}}
 function loadP(){try{var s=localStorage.getItem("s21v6");if(s){var d=JSON.parse(s);if(d.PT){PT.c=d.PT.c||0;PT.a=d.PT.a||[]}if(d.ST){for(var i=1;i<=7;i++)if(d.ST["step"+i]){ST["step"+i].c=d.ST["step"+i].c||0;ST["step"+i].tasks=d.ST["step"+i].tasks||ST["step"+i].tasks}}if(d.SC)for(var j=1;j<=7;j++)SC[j]=d.SC[j]||0;if(d.state){state.cs=d.state.cs||0;state.sr=d.state.sr||[0,0,0,0,0,0];while(state.sr.length<6)state.sr.push(0)}}}catch(e){}updLive();renderNav()}
-var steps=[{id:1,icon:"🎯",title:"Стартове завдання",tasks:1},{id:2,icon:"📋",title:"Ознаки соц. небезпечних хвороб",tasks:3},{id:3,icon:"",title:"Туберкульоз",tasks:3},{id:4,icon:"🩸",title:"ВІЛ і СНІД",tasks:4},{id:5,icon:"🫀",title:"Вірусні гепатити B і C",tasks:3},{id:6,icon:"🧠",title:"Залежності",tasks:2},{id:7,icon:"🛡️",title:"Стереотипи, стигма, дискримінація",tasks:3},{id:8,icon:"🏆",title:"Самооцінювання",tasks:0}];
+var steps=[{id:1,icon:"🎯",title:"Стартове завдання",tasks:1},{id:2,icon:"📋",title:"Ознаки соц. небезпечних хвороб",tasks:3},{id:3,icon:"🫁",title:"Туберкульоз",tasks:3},{id:4,icon:"🩸",title:"ВІЛ і СНІД",tasks:4},{id:5,icon:"🫀",title:"Вірусні гепатити B і C",tasks:3},{id:6,icon:"🧠",title:"Залежності",tasks:2},{id:7,icon:"🛡️",title:"Стереотипи, стигма, дискримінація",tasks:3},{id:8,icon:"🏆",title:"Самооцінювання",tasks:0}];
 function renderNav(){var n=document.getElementById("stepNavigation");if(!n)return;n.innerHTML="";for(var i=0;i<steps.length;i++){var s=steps[i];var d=document.createElement("div");d.className="step-nav-item";var td=s.tasks>0?ST["step"+s.id].c:0;var ic=s.tasks>0&&SC[s.id];if(s.id===8&&SC[7])d.classList.add("completed");else if(ic)d.classList.add("completed");else if(i===state.cs-1)d.classList.add("active");d.innerHTML='<div class="step-nav-number">'+(ic?"✓":(i+1))+'</div><div class="step-nav-content"><div class="step-nav-title">'+s.icon+" "+s.title+'</div><div class="step-nav-status">'+(s.tasks>0?td+"/"+s.tasks+" завдань":"Фінал")+'</div></div>';d.setAttribute("tabindex","0");d.setAttribute("role","button");(function(idx){d.onclick=function(){goToStep(idx+1)};d.onkeydown=function(e){if(e.key==="Enter"||e.key===" "){e.preventDefault();goToStep(idx+1)}}})(i);n.appendChild(d)}}
 function updS8(){var c=0;for(var i=1;i<=7;i++)c+=ST["step"+i].c;var p=Math.min(100,Math.round(c/TOTAL_TASKS*100));var ac=PT.t>0?Math.round(PT.c/PT.t*100):0;var cs=0;for(var j=1;j<=7;j++)if(SC[j])cs++;var e=function(id,v){var el=document.getElementById(id);if(el)el.textContent=v};e("statTasks",c+"/"+TOTAL_TASKS);e("statCorrect",PT.c);e("statSteps",cs+"/7");e("statAccuracy",ac+"%");var ci=document.getElementById("progressCircle");if(ci)ci.style.background="conic-gradient(var(--success) "+p+"%,var(--bg) "+p+"%)";var cp=document.getElementById("circlePercentage");if(cp)cp.textContent=p+"%";var l="Початківець",em="⭐☆☆☆☆";if(p>=76){l="Експерт із профілактики";em="⭐⭐⭐⭐⭐"}else if(p>=51){l="Досвідчений учень";em="⭐⭐⭐☆☆"}else if(p>=26){l="Учень";em="⭐⭐☆☆☆"}e("finalLevelTitle",l);e("finalLevelDesc",em);for(var k=0;k<state.sr.length;k++)if(state.sr[k]>0)rate(k+1,state.sr[k])}
 function hideAll(){var p=["mainPage","step1Page","step2Page","step3Page","step4Page","step5Page","step6Page","step7Page","step8Page"];for(var i=0;i<p.length;i++){var el=document.getElementById(p[i]);if(el)el.classList.add("hidden")}}
@@ -1184,17 +1178,17 @@ function initS7(){initTZ('s7t1')}
 function sel(el,gid){if(el.classList.contains("disabled"))return;var opts=document.querySelectorAll("#"+gid+" .option");for(var i=0;i<opts.length;i++)opts[i].classList.remove("selected");el.classList.add("selected")}
 function selAcc(el,gid,qid){if(el.classList.contains("disabled"))return;var opts=document.querySelectorAll("#"+gid+" .option");for(var i=0;i<opts.length;i++)opts[i].classList.remove("selected");el.classList.add("selected");var f=document.getElementById(gid+"f");if(!f)return;f.style.display="block";if(el.dataset.correct==="true"){el.classList.add("correct");f.className="feedback feedback-success";f.innerHTML="<strong>✅ Правильно!</strong>";for(var i=0;i<opts.length;i++){opts[i].classList.add("disabled");if(opts[i].dataset.correct==="true")opts[i].classList.add("correct")}accordionCompleted[qid]=true}else{el.classList.add("incorrect");f.className="feedback feedback-error";f.innerHTML="<strong>❌ Неправильно.</strong> Спробуй ще раз."}}
 function tog(el){if(el.classList.contains("disabled"))return;el.classList.toggle("selected")}
-function chk(gid,tid){var s=document.querySelector("#"+gid+" .option.selected");var f=document.getElementById(gid+"f");if(!f)return;f.style.display="block";if(!s){f.className="feedback feedback-warning";f.innerHTML="⚠️ Обери варіант відповіді";return}if(s.dataset.correct==="true"){s.classList.add("correct");f.className="feedback feedback-success";f.innerHTML="<strong>✅ Правильно!</strong>";var opts=document.querySelectorAll("#"+gid+" .option");for(var i=0;i<opts.length;i++){opts[i].classList.add("disabled");if(opts[i].dataset.correct==="true")opts[i].classList.add("correct")}addC(tid);showToast("Завдання виконано!","")}else{s.classList.add("incorrect");f.className="feedback feedback-error";f.innerHTML="<strong>❌ Неправильно.</strong> Спробуй ще раз."}}
-function chkMulti(gid,fid,need,tid){var opts=document.querySelectorAll("#"+gid+" .option");var f=document.getElementById(fid);if(!f)return;f.style.display="block";var selOpts=[];for(var i=0;i<opts.length;i++)if(opts[i].classList.contains("selected"))selOpts.push(opts[i]);if(selOpts.length!==need){f.className="feedback feedback-warning";f.innerHTML="️ Обери <strong>"+need+"</strong> правильні відповіді.";return}var ok=true;for(var j=0;j<opts.length;j++){var sb=opts[j].dataset.correct==="true";var is=opts[j].classList.contains("selected");if(sb&&is)opts[j].classList.add("correct");else if(!sb&&is){opts[j].classList.add("incorrect");ok=false}else if(sb&&!is)ok=false;opts[j].classList.add("disabled")}if(ok){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Правильно!</strong>";addC(tid);showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-error";f.innerHTML="<strong>❌ Не зовсім.</strong> Спробуй ще раз.";for(var k=0;k<opts.length;k++)opts[k].classList.remove("correct","incorrect","disabled")}}
+function chk(gid,tid){var s=document.querySelector("#"+gid+" .option.selected");var f=document.getElementById(gid+"f");if(!f)return;f.style.display="block";if(!s){f.className="feedback feedback-warning";f.innerHTML="⚠️ Обери варіант відповіді";return}if(s.dataset.correct==="true"){s.classList.add("correct");f.className="feedback feedback-success";f.innerHTML="<strong>✅ Правильно!</strong>";var opts=document.querySelectorAll("#"+gid+" .option");for(var i=0;i<opts.length;i++){opts[i].classList.add("disabled");if(opts[i].dataset.correct==="true")opts[i].classList.add("correct")}addC(tid);showToast("Завдання виконано!","✅")}else{s.classList.add("incorrect");f.className="feedback feedback-error";f.innerHTML="<strong>❌ Неправильно.</strong> Спробуй ще раз."}}
+function chkMulti(gid,fid,need,tid){var opts=document.querySelectorAll("#"+gid+" .option");var f=document.getElementById(fid);if(!f)return;f.style.display="block";var selOpts=[];for(var i=0;i<opts.length;i++)if(opts[i].classList.contains("selected"))selOpts.push(opts[i]);if(selOpts.length!==need){f.className="feedback feedback-warning";f.innerHTML="⚠️ Обери <strong>"+need+"</strong> правильні відповіді.";return}var ok=true;for(var j=0;j<opts.length;j++){var sb=opts[j].dataset.correct==="true";var is=opts[j].classList.contains("selected");if(sb&&is)opts[j].classList.add("correct");else if(!sb&&is){opts[j].classList.add("incorrect");ok=false}else if(sb&&!is)ok=false;opts[j].classList.add("disabled")}if(ok){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Правильно!</strong>";addC(tid);showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-error";f.innerHTML="<strong>❌ Не зовсім.</strong> Спробуй ще раз.";for(var k=0;k<opts.length;k++)opts[k].classList.remove("correct","incorrect","disabled")}}
 function toggleAccordion(header){var item=header.parentElement;var isActive=item.classList.contains("active");var items=item.parentElement.querySelectorAll(".accordion-item");for(var i=0;i<items.length;i++)items[i].classList.remove("active");if(!isActive)item.classList.add("active")}
 function chkAccordion(prefix,expected,tid){var qidCount=0;for(var k in accordionCompleted)if(accordionCompleted[k]===true)qidCount++;var f=document.getElementById(prefix+"f");if(!f)return;if(qidCount>=expected){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Чудово!</strong> Ти розібрався/лась у темі!";addC(tid);showToast("Завдання виконано!","🎉");accordionCompleted={}}else{f.className="feedback feedback-warning";f.innerHTML="💡 Відповідай на всі питання ("+qidCount+"/"+expected+"), щоб завершити завдання."}}
 var tzData={
-s4t4:[{id:"b1",t:"💞 Незахищений статевий контакт",z:"risky"},{id:"b2",t:"🤝 Рукостискання з колегою",z:"safe"},{id:"b3",t:" Випадковий контакт із кров'ю",z:"attention"},{id:"b4",t:"💉 Спільні шприци",z:"risky"},{id:"b5",t:"️ Спільний обід",z:"safe"},{id:"b6",t:" Тату в неперевіреному салоні",z:"attention"}],
+s4t4:[{id:"b1",t:"💞 Незахищений статевий контакт",z:"risky"},{id:"b2",t:"🤝 Рукостискання з колегою",z:"safe"},{id:"b3",t:"🩸 Випадковий контакт із кров'ю",z:"attention"},{id:"b4",t:"💉 Спільні шприци",z:"risky"},{id:"b5",t:"🍽️ Спільний обід",z:"safe"},{id:"b6",t:"🎨 Тату в неперевіреному салоні",z:"attention"}],
 s7t1:[{id:"c1",t:"Однокласники уникають Марію після туберкульозу, називають «заразною»",z:"stigma"},{id:"c2",t:"Ольга змушує колегу з ВІЛ звільнитися",z:"discrimination"},{id:"c3",t:"Олег вважає, що наркозалежні — тільки з неблагополучних сімей",z:"stereotype"},{id:"c4",t:"Людей з ВІЛ називають «аморальними»",z:"stigma"},{id:"c5",t:"Лікарня відмовляє у допомозі людині з ВІЛ",z:"discrimination"}]
 };
 function initTZ(key){var bankId=key==="s4t4"?"tzBank4":"tzBank7";var bank=document.getElementById(bankId);if(!bank)return;bank.innerHTML="";var items=tzData[key];var shuffled=items.slice().sort(function(){return Math.random()-0.5});for(var i=0;i<shuffled.length;i++){var it=shuffled[i];var d=document.createElement("div");d.className="tz-item";d.textContent=it.t;d.dataset.id=it.id;d.dataset.correct=it.z;d.onclick=function(){if(this.classList.contains("placed"))return;var all=bank.querySelectorAll(".tz-item");for(var j=0;j<all.length;j++)all[j].classList.remove("selected");this.classList.add("selected");tzSelected[key]=this};bank.appendChild(d)}
 var container=bank.closest(".three-zone-container");var targets=container.querySelectorAll(".tz-target");for(var k=0;k<targets.length;k++)targets[k].querySelector(".tz-target-items").innerHTML=""}
-function placeTZ(target,key){if(!tzSelected[key])return;var item=tzSelected[key];var clone=document.createElement("div");clone.className="tz-placed";clone.innerHTML='<span>'+item.textContent+'</span><button class="tz-remove" onclick="removeTZ(this,\''+key+'\')"></button>';clone.dataset.id=item.dataset.id;clone.dataset.correct=item.dataset.correct;clone.dataset.zone=target.dataset.zone;target.querySelector(".tz-target-items").appendChild(clone);item.classList.add("placed");item.classList.remove("selected");tzSelected[key]=null}
+function placeTZ(target,key){if(!tzSelected[key])return;var item=tzSelected[key];var clone=document.createElement("div");clone.className="tz-placed";clone.innerHTML='<span>'+item.textContent+'</span><button class="tz-remove" onclick="removeTZ(this,\''+key+'\')">✕</button>';clone.dataset.id=item.dataset.id;clone.dataset.correct=item.dataset.correct;clone.dataset.zone=target.dataset.zone;target.querySelector(".tz-target-items").appendChild(clone);item.classList.add("placed");item.classList.remove("selected");tzSelected[key]=null}
 function removeTZ(btn,key){var placed=btn.parentElement;var id=placed.dataset.id;placed.remove();var bankId=key==="s4t4"?"tzBank4":"tzBank7";var bank=document.getElementById(bankId);if(bank){var items=bank.querySelectorAll(".tz-item");for(var i=0;i<items.length;i++)if(items[i].dataset.id===id){items[i].classList.remove("placed");break}}}
 function resetTZ(key){tzSelected[key]=null;initTZ(key)}
 function chkTZ(key,answers,tid){var f=document.getElementById(key+"f");if(!f)return;f.style.display="block";var container=f.parentElement;var targets=container.querySelectorAll(".tz-target");var placed=[];for(var i=0;i<targets.length;i++){var items=targets[i].querySelectorAll(".tz-placed");for(var j=0;j<items.length;j++)placed.push(items[j])}
@@ -1220,7 +1214,7 @@ var fb=document.getElementById(qid+"f");if(fb){fb.classList.add("visible");if(us
 if(user===correct)ok++}
 if(ok===total){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Чудово!</strong> Усі відповіді правильні!";addC(tid);showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-error";f.innerHTML="<strong>❌</strong> Правильно: "+ok+"/"+total+". Переглянь пояснення до кожного твердження."}}
 function getMythExplanation(qid,correct){var explanations={s2t3q1:"Соціально небезпечні захворювання загрожують усім, незалежно від віку.",s2t3q2:"Поширення дійсно залежить від умов життя та поінформованості.",s2t3q3:"Ці захворювання впливають на родини, громади та суспільство.",s5t1q1:"Сучасні противірусні препарати повністю виліковують гепатит C.",s5t1q2:"Вакцина від гепатиту B входить до календаря щеплень України.",s5t1q3:"Гепатити B і C передаються через кров, статевим шляхом, від матері до дитини, але не через їжу.",s5t1q4:"Гепатити можуть тривалий час перебігати безсимптомно.",s7t2q1:"ВІЛ може інфікуватися будь-хто. Це хвороба, а не характеристика людини.",s7t2q2:"Туберкульозом може захворіти будь-яка людина незалежно від статусу.",s7t2q3:"Залежність — хронічний розлад, який можна подолати за підтримки фахівців.",s7t2q4:"ВІЛ не передається через побутові контакти.",s7t2q5:"Туберкульоз — повністю виліковне захворювання за умови раннього виявлення."};return explanations[qid]||""}
-function fillSel(blank){if(blank.classList.contains("correct"))return;var container=blank.closest(".fill-blanks-text");var all=container.querySelectorAll(".fill-blank");for(var i=0;i<all;i++)all[i].style.background="";blank.style.background="#fef3c7";fillSelected={blank:blank}}
+function fillSel(blank){if(blank.classList.contains("correct"))return;var container=blank.closest(".fill-blanks-text");var all=container.querySelectorAll(".fill-blank");for(var i=0;i<all.length;i++)all[i].style.background="";blank.style.background="#fef3c7";fillSelected={blank:blank}}
 function wordSel(word){if(word.classList.contains("used"))return;if(!fillSelected){var bank=word.parentElement;var all=bank.querySelectorAll(".fill-word");for(var i=0;i<all.length;i++)all[i].classList.remove("active");word.classList.add("active");fillSelected={word:word};return}
 fillSelected.blank.textContent=word.textContent;fillSelected.blank.dataset.filled=word.textContent;fillSelected.blank.classList.add("filled");word.classList.add("used");word.classList.remove("active");fillSelected.blank.style.background="";fillSelected=null}
 function chkFill(containerId,expected,fId,tid){var f=document.getElementById(fId);if(!f)return;f.style.display="block";var container=document.getElementById(containerId);if(!container)return;var blanks=container.querySelectorAll(".fill-blank");var ok=0;for(var i=0;i<blanks.length;i++){var correct=blanks[i].dataset.correct;var filled=blanks[i].dataset.filled||"";blanks[i].classList.remove("correct","incorrect");if(filled===correct){blanks[i].classList.add("correct");ok++}else blanks[i].classList.add("incorrect")}
@@ -1230,7 +1224,7 @@ function chkSlider(){var f=document.getElementById("s6t2f");if(!f)return;f.style
 var a1=document.getElementById("sa61");var a2=document.getElementById("sa62");
 if(v1>=5&&v1<=30){ok++;a1.className="slider-answer feedback-success visible";a1.innerHTML="✅ <strong>Правильно!</strong> Твій вибір: <strong>"+v1+"</strong>. Помірний ризик — потрібен контроль і розмови з батьками."}else{a1.className="slider-answer feedback-error visible";a1.innerHTML="❌ <strong>Не зовсім.</strong> Твій вибір: <strong>"+v1+"</strong>. Правильна відповідь: <strong>10–25</strong> (помірний ризик, потрібен контроль)."}
 if(v2>=85){ok++;a2.className="slider-answer feedback-success visible";a2.innerHTML="✅ <strong>Правильно!</strong> Твій вибір: <strong>"+v2+"</strong>. Критична залежність — потрібна професійна допомога."}else{a2.className="slider-answer feedback-error visible";a2.innerHTML="❌ <strong>Не зовсім.</strong> Твій вибір: <strong>"+v2+"</strong>. Правильна відповідь: <strong>90–100</strong> (критична залежність)."}
-if(ok===2){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Чудово!</strong> Ти правильно оцінив(ла) ризик!";addC("step6_task2");showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-warning";f.innerHTML=" Правильно: "+ok+"/2. Переглянь правильні відповіді поруч зі слайдерами."}}
+if(ok===2){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Чудово!</strong> Ти правильно оцінив(ла) ризик!";addC("step6_task2");showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-warning";f.innerHTML="💡 Правильно: "+ok+"/2. Переглянь правильні відповіді поруч зі слайдерами."}}
 function infoSel(item,detailId,countId){if(item.classList.contains("active"))return;if(item.classList.contains("wrong"))item.classList.remove("wrong");var risk=item.dataset.risk==="true";var detail=document.getElementById(detailId);if(risk){item.classList.add("active");item.style.background="#dcfce7";item.style.borderColor="var(--success)";if(!infoSelCount[countId])infoSelCount[countId]=0;infoSelCount[countId]++;var cnt=document.getElementById(countId);if(cnt)cnt.textContent=infoSelCount[countId];if(detail){detail.style.display="block";detail.className="feedback feedback-success";detail.innerHTML="<strong>✅ Правильно!</strong> "+item.querySelector("div:last-child").textContent+" — це спосіб протидії."}}else{item.classList.add("wrong");item.style.background="#fee2e2";item.style.borderColor="var(--danger)";if(detail){detail.style.display="block";detail.className="feedback feedback-error";detail.innerHTML="<strong>❌ Неправильно.</strong> "+item.querySelector("div:last-child").textContent+" — це НЕ спосіб протидії."}}}
 function chkInfo(countId,expected,fId,tid){var f=document.getElementById(fId);if(!f)return;f.style.display="block";var cnt=infoSelCount[countId]||0;if(cnt>=expected){f.className="feedback feedback-success";f.innerHTML="<strong>✅ Чудово!</strong> Ти знайшов(ла) всі правильні способи протидії!";addC(tid);showToast("Завдання виконано!","🎉")}else{f.className="feedback feedback-warning";f.innerHTML="💡 Знайдено: "+cnt+"/"+expected+". Продовж шукати правильні способи."}}
 function rate(si,r){state.sr[si-1]=r;saveP();var c=document.querySelector('.star-rating[data-skill="'+si+'"]');if(!c)return;var stars=c.querySelectorAll(".star");for(var i=0;i<stars.length;i++)if(i<r)stars[i].classList.add("active");else stars[i].classList.remove("active")}
