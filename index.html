@@ -324,8 +324,9 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </ul></div>
 <div class="card" style="margin:0"><h3>📋 Що ти робитимеш?</h3>
 <ul class="feature-list">
-    <li data-icon="✅">Аналізуватимеш ситуації з підручника (алергія, алкоголь, ВІЛ, Сергій)</li>
-    <li data-icon="🔗">Розриватимеш ланки ланцюга інфекції (туберкульоз, ВІЛ, гепатити)</li>
+    <li data-icon="✅">Аналізуватимеш ситуації з підручника</li>
+    <li data-icon="🔗">Виконуватимеш інтерактивні завдання</li>
+    <li data-icon="🩸">Визначатимеш шляхи передавання ВІЛ і гепатитів B та C</li>
     <li data-icon="🔀">Зіставлятимеш симптоми туберкульозу та застуди</li>
     <li data-icon="🛡️">Розпізнаватимеш стереотипи, стигму та дискримінацію</li>
     <li data-icon="⭐">Оціниш свої вміння</li>
@@ -693,11 +694,11 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Для кожного способу контакту обери — передається через нього ВІЛ чи ні.</div>
 <div class="yn-grid" id="ynGrid4">
 <div class="yn-row"><div class="yn-label">💞 Незахищений статевий контакт</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
-<div class="yn-row"><div class="yn-label">🤝 Обійми та рукостискання</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
+<div class="yn-row"><div class="yn-label">🤝 Обійми та рукостискання</div><button class="yn-btn" data-correct="no" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">❌ Ні</button></div>
 <div class="yn-row"><div class="yn-label">💉 Спільні шприци</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
-<div class="yn-row"><div class="yn-label">🍽️ Спільний посуд</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
+<div class="yn-row"><div class="yn-label">🍽️ Спільний посуд</div><button class="yn-btn" data-correct="no" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">❌ Ні</button></div>
 <div class="yn-row"><div class="yn-label">👶 Від матері до дитини</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
-<div class="yn-row"><div class="yn-label">💬 Звичайне спілкування</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні</button></div>
+<div class="yn-row"><div class="yn-label">💬 Звичайне спілкування</div><button class="yn-btn" data-correct="no" onclick="ynSel(this)">✅ Так</button><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">❌ Ні</button></div>
 </div>
 <div id="s4t1f" class="feedback" style="display:none"></div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS4('s4Theory')">← Назад</button><button class="btn btn-primary" onclick="chkYN('ynGrid4',6,'s4t1f','step4_task1')">✓ Перевірити</button><button class="btn btn-success" onclick="showS4('s4t2')">Далі →</button></div>
@@ -745,7 +746,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="fill-blank-word-bank" id="fillBank4">
 <div class="fill-word" onclick="wordSel(this)">PEP</div>
 <div class="fill-word" onclick="wordSel(this)">PrEP</div>
-<div class="fill-word" onclick="wordSel(this)">ефективніше</div>
+<div class="fill-word" onclick="wordSel(this)">ефективніша</div>
 <div class="fill-word" onclick="wordSel(this)">центру СНІДу</div>
 <div class="fill-word" onclick="wordSel(this)">6 тижнів</div>
 <div class="fill-word" onclick="wordSel(this)">аптеки</div>
@@ -856,11 +857,11 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 <div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Для кожної ситуації визнач, чи є ризик інфікування гепатитами B і C.</div>
 <div class="yn-grid" id="ynGrid5">
 <div class="yn-row"><div class="yn-label">💅 Манікюр у неперевіреному салоні</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
-<div class="yn-row"><div class="yn-label">🤝 Рукостискання з колегою</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
+<div class="yn-row"><div class="yn-label">🤝 Рукостискання з колегою</div><button class="yn-btn" data-correct="no" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
 <div class="yn-row"><div class="yn-label">💉 Спільні шприци</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
-<div class="yn-row"><div class="yn-label">🍽️ Спільний обід</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
+<div class="yn-row"><div class="yn-label">🍽️ Спільний обід</div><button class="yn-btn" data-correct="no" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
 <div class="yn-row"><div class="yn-label">🎨 Тату неперевіреними інструментами</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
-<div class="yn-row"><div class="yn-label">💬 Звичайне спілкування</div><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="no" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
+<div class="yn-row"><div class="yn-label">💬 Звичайне спілкування</div><button class="yn-btn" data-correct="no" onclick="ynSel(this)">✅ Так, є ризик</button><button class="yn-btn" data-correct="yes" onclick="ynSel(this)">❌ Ні, безпечно</button></div>
 </div>
 <div id="s5t2f" class="feedback" style="display:none"></div>
 <div class="navigation"><button class="btn btn-secondary" onclick="showS5('s5t1')">← Назад</button><button class="btn btn-primary" onclick="chkYN('ynGrid5',6,'s5t2f','step5_task2')">✓ Перевірити</button><button class="btn btn-success" onclick="showS5('s5t3')">Далі →</button></div>
@@ -955,7 +956,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </div>
 </div>
 <div class="key-point" style="margin-top:16px">
-💡 <strong> Залежність впливає на здоров'я і безпеку людини, її стосунки, матеріальне становище та добробут інших людей. Подолання залежності потребує професійної допомоги.
+💡 <strong>З підручника (с. 48-49):</strong> Залежність впливає на здоров'я і безпеку людини, її стосунки, матеріальне становище та добробут інших людей. Подолання залежності потребує професійної допомоги.
 </div>
 <div id="s6t1f" class="feedback" style="display:none"></div>
 <div class="navigation">
@@ -1083,7 +1084,7 @@ body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background
 </section>
 <section class="card hidden" id="s7t3">
 <h2>🛡️ Завдання 3. Інфографіка протидії</h2>
-<div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Натискай на елементи інфографіки, щоб дізнатися про способи протидії. Знайди всі 4 правильні способи.</div>
+<div class="feedback feedback-warning mb-24"><strong>📌 Інструкція:</strong> Натискай на елементи інфографіки, щоб дізнатися про способи протидії стереотипам, стигмі та дискримінації. Знайди всі 4 правильні способи.</div>
 <div style="background:linear-gradient(135deg,#eff6ff,#dbeafe);border:2px solid #93c5fd;border-radius:14px;padding:20px;margin:16px 0">
 <p style="text-align:center;font-weight:600;color:var(--primary);margin-bottom:16px">🛡️ Як протидіяти стереотипам, стигмі та дискримінації?</p>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px" id="infograph7">
